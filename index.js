@@ -25,7 +25,10 @@ mongoose
 
 //middleWares
 const corsOptions = {
-    origin: ["http://localhost:3000"],
+    origin: [
+        "https://idyllic-pithivier-4f5109.netlify.app/",
+        "http://localhost:3000",
+    ],
     //update: or "origin: true," if you don't wanna add a specific one
     credentials: true,
 };
